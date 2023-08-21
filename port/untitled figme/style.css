@@ -1,0 +1,201 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+}
+body{
+    background-color: #000;
+}
+.container{
+   max-width: 1140px;
+   margin: auto;
+   padding: 0px 15px;
+}
+header{
+   background-image: url(img/header__bg.png);
+   background-size: cover;
+   padding-bottom: 155px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* header nav ul{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+} */
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    color: #4E9F0D;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 500;
+    padding: 30px 30px;
+    display: flex;
+}
+header .header__logo{
+    color: white;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 3px;
+    background-color: #4E9F0D;
+}
+header nav ul li a:hover{
+    color: white;
+    background-color: #4E9F0D;
+}
+header nav ul li a:hover span{
+    color: #4E9F0D;
+    background-color:white;
+}
+header ul li a span{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin-left: 10px;
+}
+header h1{
+    color: #4E9F0D;
+font-size: 72px;
+font-weight: 900;
+text-transform: uppercase; 
+margin-top: 150px;
+}
+header .header__p{
+    color: #4E9F0D;
+font-size: 36px;
+font-weight: 400;
+text-transform: lowercase;
+}
+header .header__p2{
+    color: #FFF;
+font-size: 18px;
+font-weight: 400;
+margin: 30px 0 50px;
+}
+header .header__price{
+    background-color: #4E9F0D;
+    padding: 20px 30px;
+    color: #FFF;
+    width: 300px;
+    color: #FFF;
+font-size: 60px;
+font-weight: 100;
+font-family: 'Raleway';
+}
+/* ==================== main start ==============================*/
+main .container ul{
+    display: flex;
+    max-width: 500px;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+main .main__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+main .main__cards .main__card .main__text h2{
+    color: #4E9F0D;
+}
+main .main__cards .main__card .main__text p{
+    color: #FFF;
+}
+main .main__card{
+   gap:15px;
+}
+main .main__img{
+    position: relative;
+}
+main .main__img button{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px 30px;
+    background-color: #4E9F0D;
+}
+main .main__img img{
+    width: 100%;
+}
+/* ==================================================== menu start  =============================================================================== */
+menu{
+    background-image: url(img/section_bg\ 1.png);
+    padding-bottom: 135px;
+    margin-top: 100px;
+}
+menu .container p{
+    color: #FFF;
+    margin-top: 50px;
+}
+/* ==================================================== menu start  =============================================================================== */
+footer .header__logo{
+    color: white;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 3px;
+    background-color: #4E9F0D;
+}
+.footer__container{
+    max-width: 1140px;
+   margin: auto;
+   padding: 0px 15px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 50px;
+   padding-bottom: 50px;
+}
+footer ul{
+    max-width: 600px;
+    margin: auto;
+    gap: 20px;
+}
+footer nav ul li{
+    display: inline-block;
+}
+footer nav ul li a{
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+}
+/* ============================================== @media ==========================================================================================*/
+@media screen and (max-width:768px) {
+    main .main__cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:568px) {
+    main .main__cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:466px) {
+    header h1{
+        font-size: 55px;
+    }
+    main .main__cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width:366px) {
+    header h1{
+        font-size: 40px;
+    }
+}

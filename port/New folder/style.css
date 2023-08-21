@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    max-width: 1560px;
+}
+menu{
+    max-width: 1560px;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+header{
+    background-image: url(img/Layer\ 101\ 1.png);
+    max-width: 1560px;
+    height: auto;
+    padding-bottom: 227px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav a{
+    padding-top: 20px;
+    color: #FFF;
+font-family:"Montserrat";
+font-size: 20px;
+font-weight: 700;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+header .header__info{
+    text-align: center;
+    margin-top: 220px;
+}
+header .header__info h1{
+    color: #FFF;
+font-family: "Montserrat";
+font-size: 41px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+header .header__info p{
+    color: #FFF;
+font-family: "Montserrat";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 30px ;
+}
+header .header__info button{
+    color: #FFF;
+    font-family: "Montserrat";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: rgba(0, 0, 0, 0.50);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+padding: 14px 29px 12px 16px;
+}
+menu .container .menu__info{
+    text-align: center;
+}
+menu .container .menu__info h3{
+    color: #555;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 700;
+}
+menu .container .menu__info hr{
+    width: 44px;
+height: 3px;
+background:#555;
+margin: auto;
+margin-top: 22px ;
+}
+menu .container .menu__info p{
+    color: #000;
+    font-family: 'Montserrat';
+font-size: 15px;
+font-weight: 400;
+margin-top: 50px;
+}
+menu .container .menu__otzivi{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+}
+menu .container .menu__otzivi .menu__card{
+    text-align: center;
+    column-gap: 20px;
+}
+menu .container .menu__otzivi .menu__card h1{
+    background-color: #C1301D;
+    border-radius: 50% ;
+    display: inline-block;
+    padding: 19px 22px;
+    color: #FFF;
+}
+/* ====================================================== main start ============================================================================== */
+main{
+    max-width: 1560px;
+    background-color: #F8F8F8;
+    margin-top: 50px;
+}
+main .container .main__info{
+    text-align: center;
+}
+main .container .main__info h3{
+    color: #555;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 700;
+}
+main .container .main__info hr{
+    width: 44px;
+height: 3px;
+background:#555;
+margin: auto;
+margin-top: 22px ;
+}
+main .container .main__info p{
+    color: #000;
+    font-family: 'Montserrat';
+font-size: 15px;
+font-weight: 400;
+margin-top: 50px;
+}
+main .container .main__text{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 23px;
+    margin-top: 50px;
+}
+main .container .main__text .main__mini__text{
+    color: #555;
+    font-family: 'Montserrat';
+font-size: 14px;
+font-weight: 400;
+}
+main .container .main__img{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}
+/* ====================================================== section start ============================================================================== */
+section{
+    max-width: 1560px;
+    margin-top: 50px;
+}
+section .container .section__info h3{
+    color: #555;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+}
+section .container .section__info hr{
+    width: 44px;
+height: 3px;
+background:#555;
+margin: auto;
+margin-top: 22px ;
+}
+section .container .section__info ul{
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: auto;
+}
+section .container .section__img{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 23px;
+}
+/* ====================================================== main__2nd start ============================================================================== */
+.main__2nd{
+    max-width: 1560px;
+    background-image: url(img/main__bc.png);
+    padding-bottom: 50px;
+    opacity: 0.5;
+}
+.main__2nd .main__main{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    color: #eae0e0;
+}
+/* ====================================================== section__2nd start ============================================================================== */
+.section__2nd{
+    max-width: 1560px;
+    margin-top: 50px;
+}
+.section__info h3{
+    color: #555;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+}
+.section__info hr{
+    width: 44px;
+height: 3px;
+background:#555;
+margin: auto;
+margin-top: 22px ;
+}
+section .section__card{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 26px;
+}
+.section__2nd__text{
+    color: #786F6F;
+    font-size: 15px;
+}
+/* ====================================================== menu__2nd start ============================================================================== */
+.menu__2nd{
+    max-width: 1560px;
+    position: relative;
+    top: 50px;
+    background-color: #F8F8F8;
+    column-gap: 30px;
+    padding-top: 30px;
+}
+.menu__img{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    max-width: 800px;
+    margin: auto;
+}
+.menu__2nd .menu__text{
+    margin-top: 30px;
+}
+.menu__2nd .menu__text .menu__text__p1{
+    color: #786F6F;
+text-align: center;
+font-size: 15px;
+font-style: italic;
+font-weight: 700;
+}
+.menu__2nd .menu__text .menu__text__p2{
+    color: #000;
+font-size: 15px;
+font-style: italic;
+font-weight: 700;
+line-height: 25px;
+text-align: center;
+}
+/* ====================================================== media start ============================================================================== */
+@media screen and (max-width:900px) {
+    menu .container .menu__otzivi{
+        grid-template-columns: auto auto;
+    }
+    main .container .main__text{
+        grid-template-columns: auto;
+    }
+    main .container .main__img{
+        grid-template-columns: auto auto auto ;
+    }
+    section .container .section__img{
+        grid-template-columns: auto auto auto;
+    }
+    .menu__img{
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+    }
+}
+@media screen and (max-width:700px) {
+    menu .container .menu__otzivi{
+        grid-template-columns: auto;
+    }
+    main .container .main__img{
+        grid-template-columns: auto auto ;
+    }
+      section .container .section__img{
+        grid-template-columns: auto auto;
+    }
+    .menu__img{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    section .container .section__img{
+        grid-template-columns: auto;
+    }
+}
+@media screen and (max-width:530px) {
+    main .container .main__img{
+        grid-template-columns: auto;
+    }
+    .menu__img{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .section__2nd__text{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:450px) {
+    .menu__img{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    section .section__card{
+        display: grid;
+        grid-template-columns: auto ;
+    }
+}
+@media screen and (max-width:390px) {
+    .menu__img{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .section__2nd__text{
+        font-size: 1px;
+    }
+}

@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Heebo', sans-serif;
+}    
+.container{
+    max-width: 1300px;
+    width: 100%;
+    padding: 0px 15px;
+    margin: auto;
+}
+header .logo{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 10px 0px;
+    color: #000;
+}
+header .logo img{
+    background-color: #FFF;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: #FFFFFF;
+    opacity: 0.6;
+    align-items: center;
+    
+}
+header nav ul{
+    margin-bottom: 20px;
+    height: auto;
+    display: inline-block;
+    background-color: #FFF;
+
+}
+header nav ul li{
+    display: inline-block;
+    line-height: 40px;
+    padding: 10px 20px;
+}
+header ul li a{
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+}
+header .header__info{
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 300px;
+    width: 1000px;
+}
+header .header__info__text{
+    width: 497px;
+    flex-wrap: wrap-reverse;
+}
+header .header__info__text h1{
+    color: var(--dark-color, #21243D);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 136.364% */
+}
+header .header__info__text p{
+    color: var(--dark-color, #21243D);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+} 
+header .header__info__text button{
+    width: 208px;
+    height: 47px;
+    background: var(--primary, #FF6464);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+header .header__info__img{
+    width: 243px;
+    height: 243px;
+}
+header .header__info__img img{
+    width: 300px;
+    height: 300px;
+}
+/* ================================================= section start=======================================================================*/
+section{
+    max-width: 1550px;
+    background: #EDF7FA;
+    padding-bottom: 100px;
+}
+.section__tools{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    justify-content: space-between;
+}
+section .section__tools .section__card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+section .section__tools .section__card .main__text h2{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color: var(--dark-color, #21243D);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+    color: #21243D;
+    }
+section .section__tools .section__card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);   
+}
+section .section__tools .section__card .main__text p{
+    color: var(--dark-color, #21243D);
+font-size: 19   px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 10px;
+color: #21243D;
+}
+section  h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: var(--dark-color, #21243D);
+    font-size: 26px;
+    font-weight: 700;
+}
+section .section__tools img{
+    width: 100%;
+}
+/* ================================================= main start=======================================================================*/
+main{
+    margin-top: 50px;
+}
+main .container h1{
+    padding-bottom: 30px;
+}
+main .container .main__cards{
+    row-gap: 40px;
+}
+main .container .main__card{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    margin: 30px;
+}
+main .container .main__card .main__card__text{
+    max-width: 586px;
+}
+.main__hr{
+    max-width: 858px;;
+    height: 0px;
+    flex-shrink: 0; 
+    margin: auto;
+    stroke-width: 1px;
+    margin: 50px;
+    
+}
+/* ================================================= footer start=======================================================================*/
+footer{
+    max-width: 1550px;
+    align-items: center;
+    height: 182px;
+    margin-top: 50px;
+}
+footer .footer__img{
+    margin: auto;
+    text-align: center;
+}
+/* ================================================= @media start=======================================================================*/
+
+@media screen and (max-width:900px){
+    .section__tools{
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+    main .container .main__card{
+        grid-template-columns: auto;
+        }
+}
+@media screen and (max-width:700px){
+    .section__tools{
+        display: grid;
+        grid-template-columns: auto  ;
+    }
+    main .container .main__card .main__card__text{
+        font-size: 10px;
+    }
+}

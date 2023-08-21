@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1519px;
+}
+header{
+    max-width: 1519px;
+    background-image: url(img/75ae05112787439\ 1.jpg);
+    height: 1024px;
+}
+.header_nav{
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .header_ul{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    color: #fff;
+} */
+header nav ul li{
+    display:inline-block;
+}
+header nav ul li a{
+    color: #4E9F0D;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 500;
+    padding: 30px 30px;
+    display: flex;
+}
+.header_inf{
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 150px;
+}
+.header_h1{
+    font-size: 36px;
+font-weight: 900;
+text-transform: uppercase; 
+color: #FFF;
+}
+.header_button{
+    padding: 20px 30px;
+    color: #FFF;
+    width: 300px;
+font-size: 25px;
+font-weight: 100;
+font-family: 'Raleway';
+margin-top: 50px;
+border-radius: 8px;
+background: var(--dark-blue, #114E86);
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+section{
+    max-width: 1519px;
+    align-items: center;
+}
+section .section__p{
+    max-width: 800px;
+}
+.txt{
+    max-width: 970px;
+margin: auto;
+margin: 200px;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+main{
+    align-items: center;
+    max-width: 1519px;
+}
+.mine__card{
+    display: grid;
+    grid-template-columns: auto  auto auto ;
+    margin: auto;
+}
+.main_card{
+    display: flex;
+   justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+}
+.mine{
+    width: 370px;
+    text-align: center;
+    border-radius: 8px;
+}
+.mine_blue{
+    border-radius: 8px;
+background: var(--dark-blue, #114E86);
+text-align: center;
+width: 370px;
+
+}
+@media screen and (max-width:1250px){
+    section .section__p{
+        font: size 11px;
+    }
+    .mine__card{
+        display: grid;
+        grid-template-columns: auto  auto;
+    }
+}
+@media screen and (max-width:1150px){
+    .mine__card{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

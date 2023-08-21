@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background-image: url(img/victor-garcia-1263465-unsplash.png);
+    max-width: 1550px;
+    height: 747px;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1000px;
+    align-items: center;
+}
+.header_ul{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+}
+.intro{
+    max-width: 1000px;
+    margin: auto;
+    padding: 300px;
+}
+/* //////////////////////////////////////////////////////////////////////////// */
+.h3{
+    display: block;
+    max-width: 1000px;
+    margin: auto;
+    color: #565656;
+}
+.main_card{
+    text-align: center;
+}
+.big_card{
+    margin-top: 50px;
+}
+/* //////////////////////////////////////////////////////////////////////////// */
+section{
+    background-color: #181818;
+}
+.section_p{
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+    color: #fff;
+    padding: 50px;
+}
+.heade_card{
+    display: flex;
+    max-width: 850px;
+    justify-content: space-between;
+    margin: auto;
+}
+.section_card{
+    text-align: center;
+}
+/* //////////////////////////////////////////////////////////////////////////// */
+.main_p{
+    display: block;
+    max-width: 1000px;
+    margin: auto;
+    padding: 95px;
+}
+.main_header_card{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+}
+.main2_cord{
+    max-width: 251px;
+}
+.mine_card{
+    background-color: #181818;
+    color: #fff;
+}
+/* //////////////////////////////////////////////////////////////////////////// */
+.section2{
+    max-width: 1550px;
+    background-image: url(img/alesia-kazantceva-283291-unsplash.png);
+}
+.section_inf{
+    display: block;
+    max-width: 1000px;
+    margin: auto; 
+    padding: 165px;
+}
+.button2{
+    margin-top: 100px;
+    border-radius: 35px;
+    background: rgba(255, 255, 255, 0.00);
+    width: 244px;
+    height: 59px;
+    align-items: center;
+}
+.p{
+    padding: 30px;
+}
+footer{
+    background-color: #181818;
+    max-width: 100%;
+
+}
+footer .footer__info{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1000px;
+}
+footer .footer__info p{
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+}
